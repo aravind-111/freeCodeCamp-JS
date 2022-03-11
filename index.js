@@ -196,3 +196,257 @@
     const myName = "Joe";
     const myStr = "Biden" + myName + "is a fool";
 
+// 22
+
+    // Change code below this line
+    const someAdjective = "good";
+    let myStr = "Learning to code is ";
+    myStr += someAdjective;
+
+// 23
+
+    // Setup
+    let lastNameLength = 0;
+    const lastName = "Lovelace";
+
+    // Only change code below this line
+    lastNameLength = lastName.length;
+
+// 24
+
+    // Setup
+    let firstLetterOfLastName = "";
+    const lastName = "Lovelace";
+
+    // Only change code below this line
+    firstLetterOfLastName = lastName[0]; // Change this line
+
+// 25
+
+    // Setup
+    let myStr = "Jello World";
+
+    // Only change code below this line
+    myStr = "Hello World"; // Change this line
+    // Only change code above this line
+
+// 26
+
+    // Setup
+    const lastName = "Lovelace";
+
+    // Only change code below this line
+    const thirdLetterOfLastName = lastName[2]; // Change this line
+
+// 27
+
+    // Setup
+    const lastName = "Lovelace";
+
+    // Only change code below this line
+    const lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
+
+// 28
+
+    // Setup
+    const lastName = "Lovelace";
+
+    // Only change code below this line
+    const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
+
+// 29
+
+    const myNoun = "dog";
+    const myAdjective = "big";
+    const myVerb = "ran";
+    const myAdverb = "quickly";
+
+    // Only change code below this line
+    let wordBlanks = myNoun + " "  + myAdjective + " " + myVerb + " " + myAdverb; // Change this line
+    // Only change code above this line
+
+// 30
+
+    // Only change code below this line
+    const myArray = ["ds", 87];
+
+// 31
+
+    // Only change code below this line
+    const myArray = [["dsf"], ["dsfa"]];
+
+// 32
+
+    const myArray = [50, 60, 70];
+
+    const myData = myArray[0];
+
+// 33
+
+    // Setup
+    const myArray = [18, 64, 99];
+
+    // Only change code below this line
+
+    myArray[0] = 45;
+
+// 34
+
+    const myArray = [
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9],
+        [[10, 11, 12], 13, 14],
+    ];
+    
+    const myData = myArray[2][1];
+
+// 35
+
+    // Setup
+    const myArray = [["John", 23], ["cat", 2]];
+
+    // Only change code below this line
+    myArray.push(["dog", 3]);
+
+// 36
+
+    // Setup
+    const myArray = [["John", 23], ["cat", 2]];
+
+    // Only change code below this line
+
+    const removedFromMyArray  = myArray.pop();
+
+// 37
+
+    // Setup
+    const myArray = [["John", 23], ["dog", 3]];
+
+    // Only change code below this line
+
+    const removedFromMyArray = myArray.shift();
+
+// 38
+
+    // Setup
+    const myArray = [["John", 23], ["dog", 3]];
+    myArray.shift();
+
+    // Only change code below this line
+    myArray.unshift(["Paul", 35]);
+
+// 39
+
+    const myList = [["dsadsa", 12], ["dsadsa", 12], ["dsadsa", 12], ["dsadsa", 12], ["dsadsa", 12],];
+
+// 40
+
+    function reusableFunction() {
+        console.log("Hi World");
+    }
+    
+    reusableFunction();
+
+// 41
+
+    function functionWithArgs(a, b) {
+        console.log(a+b);
+    }
+    
+    functionWithArgs(1, 2);
+
+// 42
+
+    function timesFive(a) {
+        return a*5;
+    }
+    
+    timesFive(5);
+
+// 43
+
+    // Declare the myGlobal variable below this line
+    const myGlobal = 10;
+    const oopsGlobal = 5;
+
+    function fun1() {
+    // Assign 5 to oopsGlobal Here
+    }
+
+    // Only change code above this line
+
+    function fun2() {
+    var output = "";
+    if (typeof myGlobal != "undefined") {
+        output += "myGlobal: " + myGlobal;
+    }
+    if (typeof oopsGlobal != "undefined") {
+        output += " oopsGlobal: " + oopsGlobal;
+    }
+    console.log(output);
+    }
+
+// 44
+
+    function myLocalScope() {
+        // Only change code below this line
+        const myVar = 10;
+        console.log('inside myLocalScope', myVar);
+    }
+    myLocalScope();
+    
+    // Run and check the console
+    // myVar is not defined outside of myLocalScope
+    console.log('outside myLocalScope', myVar);
+
+// 45
+
+    // Setup
+    const outerWear = "T-Shirt";
+
+    function myOutfit() {
+    // Only change code below this line
+    const outerWear = "sweater"
+    // Only change code above this line
+    return outerWear;
+    }
+
+    myOutfit();
+
+// 46
+
+    // Setup
+    let sum = 0;
+
+    function addThree() {
+    sum = sum + 3;
+    }
+
+    // Only change code below this line
+
+
+    function addFive() {
+    sum = sum + 5;
+    }
+
+    // Only change code above this line
+
+    addThree();
+    addFive();
+
+// 47
+
+    // Setup
+    let processed = 0;
+
+    function processArg(num) {
+    return (num + 3) / 5;
+    }
+
+    // Only change code below this line
+
+    processed = processArg(7)
+
+// 48
+
